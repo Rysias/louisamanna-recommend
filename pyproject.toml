@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "louisamanna-recommend"
+version = "0.1.0"
+description = "A package for recommending to users based on a collaborative spotify playlist"
+authors = ["Jonathan <jhvithamar@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+hdbscan = "^0.8.33"
+spotipy = "^2.23.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
